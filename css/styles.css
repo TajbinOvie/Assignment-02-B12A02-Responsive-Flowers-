@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* common styles */
+
+.text-color-primary{
+    color: rgba(0, 0, 0, 50%);
+}
+
+#specific-color {
+    color: #252432;
+}
+
+.length{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+span{
+    color: #E95A08;
+}
+
+.bg-color {
+    background-color: #F5F8FF;
+}
+
+/* navbar styles */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    padding-left: 48px;
+}
+
+.home {
+    font-weight: 600;
+}
+
+.website-logo img {
+    width: 135px;
+    height: 82px;
+}
+
+
+/* banner styles */
+
+.banner {
+    display: flex;
+    align-items: last baseline;
+    padding-top: 120px;
+}
+
+.banner-heading{
+    font-size: 4.0625rem;
+    font-weight: 700;
+}
+
+.banner-description {
+    font-size: 1.375rem;
+}
+
+
+
+
+
+
+
+
+/* Responsive media query */
+
+@media screen and (max-width:576px) {
+    .navbar {
+        width: 100%;
+    }
+    
+    .hide {
+        display: none;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .left-section{
+        width: 100%;
+    }
+
+    .right-section img {
+        width: 100%;
+    }
+}
