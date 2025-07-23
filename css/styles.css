@@ -19,6 +19,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -88,6 +89,7 @@ span{
 .banner-heading{
     font-size: 4.0625rem;
     font-weight: 700;
+    padding-bottom: 13px;
 }
 
 .banner-description {
@@ -104,8 +106,19 @@ span{
 /* Responsive media query */
 
 @media screen and (max-width:576px) {
+
+    body{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
     .navbar {
         width: 100%;
+    }
+
+    .website-logo img {
+        width: 63px;
+        height: 38px;
     }
     
     .hide {
@@ -116,6 +129,7 @@ span{
         flex-direction: column-reverse;
         justify-content: center;
         width: 100%;
+        padding-top: 28px;
     }
 
     .left-section{
@@ -123,6 +137,16 @@ span{
     }
 
     .right-section img {
-        width: 100%;
+        width: calc(100% + 32px);
+        margin-left: -16px;
+    }
+
+    .banner-heading {
+        font-size: 1.5rem;
+        padding-top: 28px;
+    }
+
+    .banner-description {
+        font-size: 0.875rem;
     }
 }
