@@ -345,10 +345,6 @@ span{
     margin-left: 0;
 }
 
-/* .form-section input:focus,
-.form-section .sub-btn:focus{
-    outline: none;
-} */
 
 .input-section {
     display: flex;
@@ -358,13 +354,58 @@ span{
     padding-bottom: 193px;
 }
 
+.left-content {
+    font-size: 1.375rem;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+.left-content {
+    width: 359px;
+}
 
 
+.footer-right ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 15px;
+    font-size: 1.5rem;
+}
 
+.footer-second-right ul {
+    list-style: none;
+    line-height: 50px;
+}
 
+.footer-second-right ul li a{
+    text-decoration: none;
+}
 
+.footer-second-left ul {
+    list-style: none;
+    line-height: 50px;
+}
 
-/* animations */
+.footer-second-left ul li a{
+    text-decoration: none;
+}
+
+.footer-section{
+    padding: 50px 0px;
+}
+
+/* badge animations */
 
 @keyframes spin {
   from {
@@ -577,11 +618,48 @@ span{
         padding-bottom: 64px;
     }
 
-    /* .form-section{
+    .form-section{
         margin-top: 40px;
-        margin-left: 0;
-        margin-right: 0;
-    } */
+        background-image: url('../assets/news-letter-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        width: 100vw;
+        text-align: center; 
+    }
+    
+    .footer-section {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 
-  
+    .center-flex {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 0;
+    }
+
+    /*  */
+
+    .footer-left,
+    .footer-second-left,
+    .footer-second-right {
+        align-self: flex-start;
+        text-align: left;
+    }
+
+    .left-content {
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+
+    .footer-right {
+        padding-top: 20px;
+    }
+
 }
