@@ -198,6 +198,168 @@ span{
 }
 
 
+/* latest deals */
+
+.latest-deals {
+    text-align: center;
+    padding-top: 134px;
+}
+
+.latest-deals-heading {
+    font-size: 3.125rem;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.latest-deals-description {
+    font-size: 1.375rem;
+    font-weight: 400;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+.card-one {
+    background-image: url('../assets/deal-bloom.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight: 700;
+    padding: 65px 49px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* font-size: 1.25rem; */
+}
+
+.card-one a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.card-two {
+    background-image: url('../assets/deal-ana.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight: 700;
+    padding: 65px 49px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-two a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.card-three {
+    background-image: url('../assets/deal-zabo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 65px 49px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-three a {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    grid-template-areas:
+        "card-one card-three"
+        "card-two card-three";
+}
+
+.card-one {
+    grid-area: card-one;
+}
+
+.card-two {
+    grid-area: card-two;
+}
+
+.card-three {
+    grid-area: card-three;
+}
+
+.form-section{
+    background-image: url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 120px;
+    width: 100vw;
+
+}
+
+.form-heading {
+    padding-top: 199px;
+    padding-bottom: 23px;
+    font-size: 3.125rem;
+    font-weight: 700;
+    color: white;
+}
+
+.form-section input {
+    width: 644px;
+    height: 50px;
+    font-size: 1rem;
+    padding: 15px 20px;
+}
+
+.sub-btn {
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 16px 53.5px;
+    margin-left: 0;
+}
+
+/* .form-section input:focus,
+.form-section .sub-btn:focus{
+    outline: none;
+} */
+
+.input-section {
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 193px;
+}
+
+
+
 
 
 
@@ -340,4 +502,86 @@ span{
         font-size: 0.875rem;
         font-weight: 400;
     }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "card-one"
+            "card-two"
+            "card-three";
+    }
+
+    .card-three {
+        font-size: 0.5rem;
+    }
+
+    .card-three a {
+        font-size: 1rem;
+    }
+
+    .card-two {
+        font-size: 0.5rem;
+    }
+
+    .card-two a {
+        font-size: 1rem;
+    }
+
+    .card-one {
+        font-size: 0.5rem;
+    }
+
+    .card-one a {
+        font-size: 1rem;
+    }
+
+    .latest-deals-heading{
+        font-size: 1.5rem;
+    }
+
+    .latest-deals-description {
+        font-size: 0.875rem;
+    }
+
+    .latest-deals {
+        padding-top: 65px;
+    }
+
+    .latest-deals-description {
+        padding-bottom: 50px;
+    }
+
+    .form-section{
+        width: 100% ;
+    }
+
+    .form-heading{
+        font-size: 1.25rem;
+    }
+
+    .input-section input{
+        width: 60%;
+    }
+
+    .sub-btn {
+        width: 20%;
+        padding-left: 0;
+    }
+
+    .form-heading {
+        padding-top: 110px;
+    }
+
+    .input-section{
+        padding-bottom: 64px;
+    }
+
+    /* .form-section{
+        margin-top: 40px;
+        margin-left: 0;
+        margin-right: 0;
+    } */
+
+  
 }
