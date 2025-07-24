@@ -313,4 +313,31 @@ span{
         font-weight: 700;
     }
 
+    .lover {
+        flex-direction: column;
+        margin-top: 41px;
+    }
+
+    .trust-badge {
+        display: none;
+    }
+
+    .store-image {
+        width: 100%;
+    }
+
+    .content-section {
+        padding-left: 0px;
+    }
+
+    .lover-heading {
+        padding-top: 18px;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    
+    .lover-list {
+        font-size: 0.875rem;
+        font-weight: 400;
+    }
 }
