@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faugei</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
     <!-- font awesome cdn -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
 </head>
@@ -182,6 +183,18 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        const cartButtons = document.querySelectorAll('.cart-btn');
+
+        cartButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                alert('Flower Added to Cart');
+            });
+        });
+    </script>
+
+
 </body>
 
 </html>
