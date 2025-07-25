@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 .noto-serif-font {
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,7 +25,7 @@
 
 /* common styles */
 
-.text-color-primary{
+.text-color-primary {
     color: rgba(0, 0, 0, 50%);
 }
 
@@ -33,12 +33,12 @@
     color: #252432;
 }
 
-.length{
+.length {
     width: 1140px;
     margin: 0 auto;
 }
 
-span{
+span {
     color: #E95A08;
 }
 
@@ -48,7 +48,7 @@ span{
 
 /* navbar styles */
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,7 +86,7 @@ span{
     padding-top: 120px;
 }
 
-.banner-heading{
+.banner-heading {
     font-size: 4.0625rem;
     font-weight: 700;
     padding-bottom: 13px;
@@ -140,8 +140,8 @@ span{
 
 .cards-section {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    gap: 30px; 
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
 }
 
 .lover {
@@ -319,9 +319,9 @@ span{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4); 
+    background: rgba(0, 0, 0, 0.4);
     z-index: 0;
-    pointer-events: none; 
+    pointer-events: none;
 }
 
 .card-one *,
@@ -333,7 +333,7 @@ span{
 
 /* form styles */
 
-.form-section{
+.form-section {
     background-image: url('assets/news-letter-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -417,7 +417,7 @@ span{
     line-height: 50px;
 }
 
-.footer-second-right ul li a{
+.footer-second-right ul li a {
     text-decoration: none;
 }
 
@@ -426,23 +426,24 @@ span{
     line-height: 50px;
 }
 
-.footer-second-left ul li a{
+.footer-second-left ul li a {
     text-decoration: none;
 }
 
-.footer-section{
+.footer-section {
     padding: 50px 0px;
 }
 
 /* badge animations */
 
 @keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 
@@ -450,12 +451,12 @@ span{
 
 @media screen and (max-width:576px) {
 
-    body{
+    body {
         padding-left: 16px;
         padding-right: 16px;
     }
 
-     .length {
+    .length {
         width: 100%;
         max-width: 100%;
     }
@@ -468,7 +469,7 @@ span{
         width: 63px;
         height: 38px;
     }
-    
+
     .hide {
         display: none;
     }
@@ -480,7 +481,7 @@ span{
         padding-top: 28px;
     }
 
-    .left-section{
+    .left-section {
         width: 100%;
     }
 
@@ -502,7 +503,7 @@ span{
         width: 100%;
         padding-top: 0px;
     }
-    
+
     .plans-heading {
         font-size: 1.5rem;
         padding-top: 65px;
@@ -538,7 +539,7 @@ span{
         font-size: 1rem;
         font-weight: 500;
     }
-    
+
     .flower-price {
         font-weight: 1rem;
         font-weight: 700;
@@ -566,7 +567,7 @@ span{
         font-size: 1.5rem;
         font-weight: 700;
     }
-    
+
     .lover-list {
         font-size: 0.875rem;
         font-weight: 400;
@@ -605,7 +606,7 @@ span{
         font-size: 1rem;
     }
 
-    .latest-deals-heading{
+    .latest-deals-heading {
         font-size: 1.5rem;
     }
 
@@ -621,15 +622,15 @@ span{
         padding-bottom: 50px;
     }
 
-    .form-section{
-        width: 100% ;
+    .form-section {
+        width: 100%;
     }
 
-    .form-heading{
+    .form-heading {
         font-size: 1.25rem;
     }
 
-    .input-section input{
+    .input-section input {
         width: 60%;
     }
 
@@ -642,11 +643,11 @@ span{
         padding-top: 110px;
     }
 
-    .input-section{
+    .input-section {
         padding-bottom: 64px;
     }
 
-    .form-section{
+    .form-section {
         margin-top: 40px;
         background-image: url('assets/news-letter-bg.png');
         background-repeat: no-repeat;
@@ -658,9 +659,9 @@ span{
         margin-left: -50vw;
         margin-right: -50vw;
         width: 100vw;
-        text-align: center; 
+        text-align: center;
     }
-    
+
     .footer-section {
         flex-direction: column;
         justify-content: flex-start;
