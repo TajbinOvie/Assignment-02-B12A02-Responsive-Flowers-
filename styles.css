@@ -379,10 +379,11 @@ span{
 
 .footer-right ul {
     display: flex;
+    align-items: center;
     text-decoration: none;
     list-style: none;
     gap: 15px;
-    font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .footer-second-right ul {
