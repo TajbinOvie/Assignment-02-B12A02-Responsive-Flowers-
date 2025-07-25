@@ -111,7 +111,7 @@ span{
 
 .plans-description {
     font-size: 1.375rem;
-    width: 75%; /* need to chang this in media query */
+    width: 75%;
     margin: 0 auto;
     padding-bottom: 49px;
 }
@@ -147,17 +147,11 @@ span{
 .lover {
     display: flex;
     align-items: center;
-    /* gap: 30px;
-    padding: 20px; */
-
-
     margin-top: 210px;
-    /* margin-bottom: 50px; */
 }
 
 .img-section {
     position: relative;
-    /* width: 350px; */
     flex-shrink: 0;
 }
 
@@ -198,7 +192,7 @@ span{
 }
 
 
-/* latest deals */
+/* latest deals styles */
 
 .latest-deals {
     text-align: center;
@@ -232,7 +226,6 @@ span{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    /* font-size: 1.25rem; */
 }
 
 .card-one a {
@@ -338,6 +331,7 @@ span{
     z-index: 1;
 }
 
+/* form styles */
 
 .form-section{
     background-image: url('assets/news-letter-bg.png');
@@ -389,6 +383,8 @@ span{
 .left-content {
     font-size: 1.375rem;
 }
+
+/* footer styles */
 
 .footer-section {
     display: flex;
@@ -448,7 +444,6 @@ span{
     transform: rotate(360deg);
   }
 }
-
 
 
 /* Responsive media query */
@@ -676,8 +671,6 @@ span{
         justify-content: flex-start;
         gap: 0;
     }
-
-    /*  */
 
     .footer-left,
     .footer-second-left,
